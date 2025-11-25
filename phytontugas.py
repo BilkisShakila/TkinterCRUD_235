@@ -61,6 +61,8 @@ def submit_data():
     except ValueError:
         messagebox.showerror("Error", "Nilai harus berupa angka!") # Tampilkan pesan error jika input tidak valid
 
+
+
 # ------------------------------
 # GUI Tkinter
 # ------------------------------
@@ -90,3 +92,5 @@ btn_submit = tk.Button(root, text="Submit Nilai", command=submit_data, bg="light
 btn_submit.pack(pady=20) # Menempatkan tombol di jendela
 
 root.mainloop() # Menjalankan aplikasi GUI
+
+
